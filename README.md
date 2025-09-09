@@ -23,4 +23,4 @@ A página consome uma **API do Brasileirão** para exibir as informações da ta
 
 
 
-Anthony Freitas - Todos os direitos reservados
+Anthony Freitas 2025 - Todos os direitos reservados
