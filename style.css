@@ -1,0 +1,168 @@
+/* ====== RESET ====== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* ====== BODY ====== */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  /* ====== MENU FIXO ====== */
+
+  .redes-sociais{
+    text-align: right;
+  }
+  .redes-sociais a {
+    color: white;
+    margin: 0 8px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+
+  .redes-sociais a:hover {
+    color: orange;
+    margin: 0 8px;
+    text-decoration: none;
+    font-size: 35px;
+  }
+
+
+
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #222;
+    padding: 10px 0;
+    z-index: 1000;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 20px;
+  }
+
+    nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a, nav button {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  nav a:hover, nav button:hover {
+    text-decoration: underline;
+  }
+  
+  /* ====== LÍDER FAKE ====== */
+  #lider-fake {
+    background: #000; /* fundo preto */
+    color: #ff0000;  /* texto vermelho */
+    font-weight: bold;
+    padding: 12px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 50px; /* espaço para o menu fixo */
+  }
+  #lider-fake .escudo {
+    width: 40px;
+    height: 40px;
+  }
+  
+  /* ====== HEADER ====== */
+header {
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: transparent;
+    background: #333;
+    color: #fff;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+
+/* Ícones das redes sociais */
+.redes-sociais a {
+    margin-right: 15px;
+    color: white;
+    font-size: 24px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.redes-sociais a:hover {
+    color: orange;
+    transform: scale(1.1);
+}
+
+  
+  /* ====== MAIN CONTAINER FLEX ====== */
+  .main-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap; /* permite quebrar se a tela for pequena */
+    margin: 20px;
+  }
+  
+  /* ====== SESSÕES ====== */
+  section {
+    flex: 1 1 45%; /* ocupa 45% da largura, ajusta com a tela */
+    background: #d9f2d9; /* verde claro */
+    padding: 15px;
+    border-radius: 8px;
+    min-width: 300px;
+  }
+  
+  /* ====== IFRAME ====== */
+  iframe {
+    width: 100%;
+    height: 700px;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  /* ====== FAIXA EXPLICATIVA ====== */
+  .lider-explicativo {
+    background: #28a745; /* verde forte */
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* ====== FOOTER ====== */
+  footer {
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+  }
+  

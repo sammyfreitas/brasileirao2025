@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Brasileirão 2025</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Widget da tabela -->
+  <script src="https://cdn.api-futebol.com.br/widgets/v1/apifutebol-tabela.js"></script>
+
+</head>
+<body>
+	<header>
+		<div class="redes-sociais">
+			<a href="https://wa.me/5521986140005" target="_blank"><i class="fab fa-whatsapp"></i></a>
+			<a href="https://www.linkedin.com/in/tony-s-freitas/" target="_blank"><i class="fab fa-linkedin"></i></a>
+			<a href="https://github.com/sammyfreitas" target="_blank"><i class="fab fa-github"></i></a>
+			<a href="https://discord.com/channels/999307907160088607/999307907160088609" target="_blank"><i class="fab fa-discord"></i></a>
+			<a href="https://www.facebook.com/anthonyfreitas78" target="_blank"><i class="fab fa-facebook-f"></i></a>
+			<a href="https://www.instagram.com/anthony_tijuduke/" target="_blank"><i class="fab fa-instagram"></i></a>
+		</div>
+	</header>
+
+  <!-- Menu fixo -->
+  <nav>
+    <ul>
+      <li><a href="#home">HOME</a></li>
+      <li><a href="#tabela">TABELA</a></li>
+      <li><a href="#rodadas">RODADAS</a></li>
+      <li><button id="atualizarBtn">🔄 Atualizar Líder</button></li>
+    </ul>
+  </nav>
+
+  <!-- Container do líder fake -->
+  <div id="lider-fake">
+    <span>LIDER ATUAL:</span>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Flamengo_braz_logo.svg" alt="Flamengo" class="escudo">
+    <span>FLAMENGO</span>
+    <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- 
+    Fluminense: https://upload.wikimedia.org/wikipedia/commons/1/1d/FFC_crest.svg
+    Botafogo: https://upload.wikimedia.org/wikipedia/commons/5/52/Botafogo_de_Futebol_e_Regatas_logo.svg
+    Vasco: https://upload.wikimedia.org/wikipedia/pt/thumb/a/ac/CRVascodaGama.png/120px-CRVascodaGama.png
+    -->
+  </div>
+  <header>
+   
+
+    <div class="redes-sociais">
+      <a href="https://wa.me/5521986140005" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://www.linkedin.com/in/tony-s-freitas/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/sammyfreitas" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://discord.com/channels/999307907160088607/999307907160088609" target="_blank"><i class="fab fa-discord"></i></a>
+      <a href="https://www.facebook.com/anthonyfreitas78" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/anthony_tijuduke/" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="https://sammyfreitas.github.io/portfolioSite/">Portfólio</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+    <h1>Brasileirão 2025</h1>
+    <p>Acompanhe a tabela e as rodadas em tempo real</p>
+
+
+  <main class="main-container">
+    <!-- Sessão Tabela -->
+    <section id="tabela">
+      <h2>Tabela</h2>
+      <div class="lider-explicativo">
+        🏆 O time que aparece em 1º lugar na tabela abaixo é o líder do Brasileirão
+      </div>
+      <div class="apifutebol-tabela" data-client-id="3CUJSJFPERJ2"></div>
+    </section>
+
+    <!-- Sessão Rodadas -->
+    <section id="rodadas">
+      <h2>Rodadas</h2>
+      <iframe src="https://api.api-futebol.com.br/v1/widgets/rodadas?client_id=KP6WTSMN5REL"></iframe>
+    </section>
+  </main>
+
+  <footer>
+    <p>⚽ Dados fornecidos pela API Futebol | Projeto: <strong>Anthony Freitas</strong> | 2025 </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
